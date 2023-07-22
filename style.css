@@ -1,0 +1,80 @@
+*{
+/* background-color:rgb(124, 117, 117); */
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+background-image: none;
+background-color: transparent;
+font-family: "Red Rose", cursive;
+}
+body{
+
+ background-image: url(https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ); 
+
+ background-color : transparent; 
+ background-size: cover;
+ background-attachment: fixed ;
+ 
+ margin: 30px 20px;
+ border-radius: 10px;
+ 
+}
+
+nav{
+display: flex;
+text-align: center;
+justify-items: center;
+justify-content: space-between;
+
+}
+
+nav ul{
+display: flex;
+list-style: none;
+gap:30px;
+
+
+}
+
+a{
+color:  rgb(255, 208, 0);
+
+}
+a:hover {
+font-weight: bolder;
+
+}
+button{
+
+    background-color: rgb(255, 60, 0);
+    color: beige;
+    padding: 10px 10px;
+    border: whitesmoke;
+    border-radius: 5px;
+    
+}
+button:hover{
+font-weight: bolder;
+font-size: 13px;
+
+
+}
+
+/* main body */
+main{
+ text-align: center;
+ justify-items: center;
+ 
+
+}
+h1{
+ color: rgb(255, 208, 0);
+font-size: 70px;
+margin-top: 100px;
+
+}
+
+footer{
+text-align: end;
+
+}
